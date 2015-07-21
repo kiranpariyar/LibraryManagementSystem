@@ -9,13 +9,13 @@ class UserController {
             redirect(controller:'main',action: "home")
         } else {
             flash.message = "User not found"
-            redirect(controller:'main',action: "login")
+            redirect(controller:'main',action: "index")
         }
     }
 
     def logout = {
         session.invalidate()
-        redirect(controller:'main',action: "login")
+        redirect(controller:'main',action: "index")
     }
 
 }

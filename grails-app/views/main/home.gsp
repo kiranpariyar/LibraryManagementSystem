@@ -15,6 +15,8 @@
 <body>
 <h1>WELCOME In Library Management System</h1>
 <g:link controller="book" action="create">Add Book</g:link><br/>
-<g:link controller="member" action="create">Add Member</g:link>
+<g:link controller="member" action="create">Add Member</g:link><br/>
+<g:link controller="user" action="logout">Logout</g:link>
+
 </body>
 </html>
